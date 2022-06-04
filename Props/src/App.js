@@ -14,9 +14,9 @@ function App() {
         <Input />
         <ButtonPlus />
       </div>
-      <Divider />
+      <Divider fullWidth />
       <List />
-      <Divider />
+      <Divider fullWidth />
       <Panigation />
 
     </div>
