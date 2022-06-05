@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './style.css'
 
 export default class ListContent extends Component {
     constructor(props) {
@@ -9,7 +10,7 @@ export default class ListContent extends Component {
     render() {
         const { content } = this.props
         return (
-            <p style={{ textAlign: 'center' }}>{content}</p>
+            <p className='title-item' style={{ textAlign: 'center' }}>{content}</p>
         )
     }
 }

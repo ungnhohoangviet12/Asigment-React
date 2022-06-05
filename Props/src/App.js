@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header content='TO DO LIST APPLICATION' />
-      <div>
+      <div className='add-task-wrapper'>
         <Input />
         <ButtonPlus />
       </div>
