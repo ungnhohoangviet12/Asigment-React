@@ -1,0 +1,13 @@
+.content-item {
+    display: flex;
+}
+
+h3 {
+    color: red;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.list-item {
+    height: 550px;
+}

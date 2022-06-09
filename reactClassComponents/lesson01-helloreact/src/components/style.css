@@ -1,0 +1,32 @@
+.item {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+img {
+    width: 100%;
+}
+
+.button-item {
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 3px;
+    color: white;
+    font-weight: 400;
+    font-family: inherit;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.price {
+    font-size: 16px;
+    color: red;
+}

@@ -1,0 +1,68 @@
+.app {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.header {
+  width: 100%;
+  height: 150px;
+  display: flex;
+}
+
+.panel {
+  width: 100%;
+  height: 40px;
+  background-color: blue;
+  color: white;
+}
+
+.colorBox {
+  width: 48%;
+  margin: 10px 10px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  border: 2px solid brown;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background-color: green;
+  border-radius: 4px;
+  border: 1px solid green;
+  color: white;
+  text-align: center;
+  margin-right:20px;
+}
+
+.reset {
+  margin-left: 51%;
+  background-color: blue;
+}
+
+.none {
+  border: none;
+  background-color: azure;
+}
+
+p {
+  display: block;
+  color: brown;
+}
+
+.panel-body {
+  display: flex;
+  height: 100px;
+}
+
+
+.boxColor {
+  height: 40px;
+  width: 40px;
+  margin: 20px;
+}
