@@ -6,14 +6,15 @@ export default class Result extends Component {
         return {
             color: this.props.color,
             borderColor: this.props.color,
-            fontSize: this.props.fontSize
+            fontSize: this.props.fontSize,
+
         }
     }
     render() {
         return (
             <div>
                 <div>
-                    <p>Color:red-Fontsize: 15px</p>
+                    <p>Color: {this.props.color} - Fontsize: {this.props.fontSize}px</p>
                     <input style={this.setStyle()} placeholder='Nội dụng setting' />
                 </div>
             </div>

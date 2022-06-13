@@ -4,7 +4,7 @@ export default class Reset extends Component {
     render() {
         return (
             <div>
-                <button className='reset'>Reset</button>
+                <button onClick={this.props.onSettingon} className='reset'>Reset</button>
             </div>
         )
     }

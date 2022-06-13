@@ -24,6 +24,7 @@ export default class Form extends Component {
     hanldeSubmit(e) {
         e.preventDefault()
         console.log(this.state)
+
     }
     render() {
         return (
