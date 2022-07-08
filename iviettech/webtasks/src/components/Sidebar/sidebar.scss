@@ -1,0 +1,32 @@
+.sidebar {
+    width: 200px;
+    height: 110vh;
+    background-color: black;
+    
+    li {
+        list-style-type: none;
+        margin: 60px 0;
+        width: 130px;
+        height: 40px;
+        border-radius: 20px;
+     
+        a {
+            text-decoration: none;
+            padding: 10px 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+        }
+    }
+    
+    li:hover {
+        background-color: #0E0E0E;
+        border: 1px solid gray;
+
+        }
+}

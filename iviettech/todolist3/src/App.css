@@ -1,0 +1,11 @@
+.App {
+  width: 500px;
+  height: 600px;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 10px auto;
+}
+
+.secction {
+  height: 350px;
+}

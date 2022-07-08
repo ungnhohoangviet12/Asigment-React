@@ -1,0 +1,50 @@
+
+.sibar  {
+    width:200px ;
+    height: 100vh;
+}
+
+
+.list {
+    width: 200px;
+    height: 100vh;
+    background-color: black;
+    margin-top: -44px;
+    padding-top: 40px;
+}
+
+button {
+    width: 100px;
+    height: 34px;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -100px;
+
+}
+
+.item {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    margin-top: 10px;
+
+}
+
+span {
+    width: 140px;
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+    padding: 0 15px;
+}
+
+span:hover {
+    background-color: gray;
+    border-radius: 20px;
+
+}

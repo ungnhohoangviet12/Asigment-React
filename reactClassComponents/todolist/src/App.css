@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.text-right {
+  display: block;
+  float: right;
+  margin-top: -20px;
+}
