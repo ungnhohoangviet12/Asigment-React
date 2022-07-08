@@ -16,6 +16,10 @@ export default class App extends Component {
         status: -1
       },
       keywork: '',
+      sort: {
+        by: 'name',
+        value: 1
+      }
     };
   }
 
