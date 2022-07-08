@@ -14,7 +14,8 @@ export default class App extends Component {
       filter: {
         name: '',
         status: -1
-      }
+      },
+      keywork: '',
     };
   }
 
@@ -175,9 +176,15 @@ export default class App extends Component {
     })
   }
 
+  onSearch = (keywork) => {
+    this.setState({
+      keywork: keywork
+    })
+  }
+
 
   render() {
-    var { tasks, isDisplayForm, taskEditing, filter } = this.state;
+    var { tasks, isDisplayForm, taskEditing, filter, keywork } = this.state;
     if (filter) {
       if (filter.name) {
         tasks = tasks.filter((task) => {
@@ -192,6 +199,13 @@ export default class App extends Component {
         }
       })
     }
+
+    if (keywork) {
+      tasks = tasks.filter((task) => {
+        return task.name.toLowerCase().indexOf(keywork) !== -1;
+      })
+    }
+
     var elmTaskForm = isDisplayForm ? (
       <TaskForm
         onSubmit={this.onSubmit}
@@ -236,7 +250,7 @@ export default class App extends Component {
             >
               Genarate Data
             </button>
-            <Control />
+            <Control onSearch={this.onSearch} />
             <div className="row mt-15">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <TaskList
